@@ -28,19 +28,17 @@ export default function Stacks() {
     <div className="bg-black text-white">
       <div className="container py-14">
         <h2 className="text-3xl font-bold">Tecnologías:</h2>
-        <div className="flex justify-center items-center gap-10 py-14">
-          <div className="w-24 flex flex-row justify-center items-center gap-8">
-            {StacksLinks.map((link) => {
-              return (
-                <img
-                  key={link.id}
-                  src={link.image}
-                  alt={link.name}
-                  className="w-24 rounded-lg"
-                />
-              );
-            })}
-          </div>
+        <div className="flex flex-wrap justify-center items-center gap-8 py-14">
+          {StacksLinks.map((link) => {
+            return (
+              <img
+                key={link.id}
+                src={link.image}
+                alt={link.name}
+                className="w-24"
+              />
+            );
+          })}
         </div>
       </div>
     </div>
