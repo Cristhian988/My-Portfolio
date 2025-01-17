@@ -37,7 +37,7 @@ export const dataProject = [
         description: "Mi Portafolio",
         image: project_4,
         github: "https://github.com/Cristhian988/My-Portfolio",
-        url: "",
+        url: "https://my-portfolio-swart-three-63.vercel.app/",
         tech: ["React", "Tailwind"]
     }
 ]
