@@ -34,7 +34,7 @@ export const dataProject = [
     {
         id: 4,
         name: "Mi Portafolio - Innovación y Creatividad en Cada Línea de Código",
-        description: "Un portafolio profesional diseñado para destacar mis habilidades en desarrollo de software, proyectos realizados y experiencia con tecnologías modernas. Este sitio combina diseño minimalista y funcionalidad intuitiva para brindar una visión clara de mi trabajo y trayectoria.",
+        description: "Un portafolio diseñado para destacar mis habilidades en desarrollo de software, proyectos realizados y experiencia con tecnologías modernas. Este sitio brinda una visión clara de mi trabajo y trayectoria.",
         image: project_4,
         github: "https://github.com/Cristhian988/My-Portfolio",
         url: "https://my-portfolio-swart-three-63.vercel.app/",
