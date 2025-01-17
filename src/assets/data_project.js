@@ -36,7 +36,7 @@ export const dataProject = [
         name: "Portafolio",
         description: "Mi Portafolio",
         image: project_4,
-        github: "",
+        github: "https://github.com/Cristhian988/My-Portfolio",
         url: "",
         tech: ["React", "Tailwind"]
     }
