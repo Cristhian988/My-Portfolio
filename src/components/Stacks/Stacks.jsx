@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import img1 from "../../assets/html.png";
 import img2 from "../../assets/css.png";
 import img3 from "../../assets/js.png";
@@ -25,9 +25,9 @@ const StacksLinks = [
 
 export default function Stacks() {
   return (
-    <div className="bg-black text-white">
+    <div>
       <div className="container py-14">
-        <h2 className="text-3xl font-bold">Tecnologías:</h2>
+        <h2 className="text-3xl font-bold">Tecnologías</h2>
         <div className="flex flex-wrap justify-center items-center gap-8 py-14">
           {StacksLinks.map((link) => {
             return (
