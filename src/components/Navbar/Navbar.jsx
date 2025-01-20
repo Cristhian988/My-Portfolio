@@ -29,7 +29,7 @@ export default function Navbar() {
           })}
           {/* button section */}
           <a
-            href="/src/document/CV.pdf"
+            href="/src/assets/CV.pdf"
             className="mx-4 font-semibold text-yellow-400"
             target="_blank"
             rel="noreferrer"

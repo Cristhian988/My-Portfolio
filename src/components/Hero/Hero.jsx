@@ -73,7 +73,7 @@ export default function Hero() {
           </li>
           <li>
             <a
-              href="../../document/CV.pdf"
+              href="../../assets/CV.pdf"
               target="_blank"
               rel="noreferrer"
               className="hover:text-white text-2xl"
@@ -87,7 +87,7 @@ export default function Hero() {
       <div className="hidden lg:block w-10 fixed bottom-0 left-auto right-10 z-10 ">
         <div className="flex flex-col items-center relative">
           <a
-            href=""
+            href="mailto:crissfx28@gmail.com"
             className="inline-flex items-center writing-mode-vertical-rl tracking-widest text-sm text-gray-500 hover:text-white"
           >
             crissfx28@gmail.com
