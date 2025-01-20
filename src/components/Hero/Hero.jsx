@@ -73,7 +73,7 @@ export default function Hero() {
           </li>
           <li>
             <a
-              href="../../document//CV.pdf"
+              href="../../document/CV.pdf"
               target="_blank"
               rel="noreferrer"
               className="hover:text-white text-2xl"
