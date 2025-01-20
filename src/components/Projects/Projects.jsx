@@ -26,8 +26,10 @@ export default function Projects() {
                 <div className="grid grid-area items-center w-[500px]">
                   <div className="space-y-4">
                     <span className="text-yellow-400">Proyecto destacado</span>
-                    <h1 className="font-semibold">{project.name}</h1>
-                    <p className="max-w-[500px] rounded-md py-6 md:py-6 px-4 bg-[#16181a] shadow-[2px_2px_7px_rgba(255,255,255,.5)] text-sm">
+                    <h1 className="w-1/3 md:w-full font-semibold">
+                      {project.name}
+                    </h1>
+                    <p className="max-w-[380px] md:max-w-[500px] rounded-md py-6 md:py-6 px-4 bg-[#16181a] shadow-[2px_2px_7px_rgba(255,255,255,.5)] text-sm">
                       {project.description}
                     </p>
                     <p>{project.tech && project.tech.join(", ")}</p>
