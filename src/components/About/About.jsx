@@ -1,5 +1,5 @@
 // import React from "react";
-import profile from "../../assets/Profile.jpg";
+import profile from "../../assets/profile.jpg";
 
 export default function About() {
   return (
@@ -18,11 +18,10 @@ export default function About() {
           <div className="space-y-5 flex justify-center flex-col tracking-tighter">
             <h2 className="text-3xl font-bold">Sobre mi</h2>
             <p className="text-clamp-sm leading-[1.75]">
-              Soy estudiante de la carrera Desarrollo de Software y
-              desarrollador frontend junior con pasión por crear interfaces web
-              atractivas y funcionales. Cuento con experiencia en HTML, CSS,
-              JavaScript y frameworks como React. Me motiva aprender nuevas
-              tecnologías, resolver problemas y colaborar en equipo para
+              Soy estudiante de Desarrollo de Software con pasión por crear
+              interfaces web atractivas y funcionales. Cuento con experiencia en
+              HTML, CSS, JavaScript y frameworks como React. Me motiva aprender
+              nuevas tecnologías, resolver problemas y colaborar en equipo para
               construir soluciones innovadoras. Estoy comprometido con mi
               crecimiento profesional y listo para contribuir a proyectos
               desafiantes mientras sigo desarrollando mis habilidades.

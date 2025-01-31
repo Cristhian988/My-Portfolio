@@ -1,5 +1,6 @@
 import "./App.css";
 import About from "./components/About/About";
+import Contact from "./components/Contact/Contact";
 import Experience from "./components/Experience/Experience";
 import Hero from "./components/Hero/Hero";
 import Navbar from "./components/Navbar/Navbar";
@@ -25,6 +26,9 @@ function App() {
         </section>
         <section id="proyectos">
           <Projects />
+        </section>
+        <section id="contacto">
+          <Contact />
         </section>
       </main>
     </>

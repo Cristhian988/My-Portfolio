@@ -49,7 +49,7 @@ export default function Hero() {
         </div>
       </div>
       {/* static icons */}
-      <div className="hidden lg:block w-10 fixed bottom-0 left-10 z-10 ">
+      <div className="hidden lg:block w-10 fixed bottom-0 lg:left-2 xl:left-10 z-10 ">
         <ul className="flex flex-col items-center justify-center gap-6 text-gray-500 text-xl">
           <li>
             <a
@@ -84,7 +84,7 @@ export default function Hero() {
           <div className="relative w-[1px] h-20 bg-gray-500 group-hover:bg-gray-500 group-hover:text-gray-500" />
         </ul>
       </div>
-      <div className="hidden lg:block w-10 fixed bottom-0 left-auto right-10 z-10 ">
+      <div className="hidden lg:block w-10 fixed bottom-0 left-auto right-2 xl:right-10 z-10 ">
         <div className="flex flex-col items-center relative">
           <a
             href="mailto:crissfx28@gmail.com"
