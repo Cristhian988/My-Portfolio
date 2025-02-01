@@ -2,23 +2,30 @@
 
 import { FaLinkedinIn } from "react-icons/fa";
 import { FiGithub, FiInstagram } from "react-icons/fi";
-import { MdOutlineEmail } from "react-icons/md";
+import { MdOutlineAlternateEmail } from "react-icons/md";
 
 export default function Contact() {
   return (
     <div className="container">
       <div className="flex justify-center h-[90vh]">
         <div className="flex flex-col items-center justify-center">
-          <p className="text-lg font-bold text-yellow-500">¿Que sigue?</p>
-          <h1 className="text-4xl font-semibold mb-4">CONTÁCTAME</h1>
-          <p className="mb-12">No dudes en contactarme!</p>
+          <p className="text-lg font-bold text-yellow-500 mb-3">
+            ¡Trabajemos juntos!
+          </p>
+          <h1 className="text-4xl font-semibold mb-4 text-center">
+            ¿Listo para colaborar?
+          </h1>
+          <p className="mb-12 text-center">
+            Estoy disponible para nuevas oportunidades y colaboraciones.
+            ¡Hablemos!
+          </p>
           <button className="px-6 py-2 rounded-lg border-white border text-white font-mono text-lg">
             <a
               href="mailto:crissfx28@gmail.com"
               target="_blank"
               rel="noreferrer"
             >
-              Saludame
+              Contáctame
             </a>
           </button>
         </div>
@@ -46,7 +53,7 @@ export default function Contact() {
           <FaLinkedinIn />
         </a>
         <a href="mailto:crissfx28@gmail.com" target="_blank" rel="noreferrer">
-          <MdOutlineEmail />
+          <MdOutlineAlternateEmail />
         </a>
       </div>
       <div>

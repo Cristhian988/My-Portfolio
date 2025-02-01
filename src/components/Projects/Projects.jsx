@@ -18,18 +18,18 @@ export default function Projects() {
                     href={project.url}
                     target="_blank"
                     rel="noreferrer"
-                    className="w-2/3 ml-auto"
+                    className=" w-full opacity-10 md:opacity-40 hover:opacity-100 transition-all md:w-2/3 ml-auto"
                   >
                     <img src={project.image} alt={project.name} />
                   </a>
                 </div>
-                <div className="grid grid-area items-center w-[500px]">
-                  <div className="space-y-4">
-                    <span className="text-yellow-400">Proyecto destacado</span>
-                    <h1 className="w-1/3 md:w-full font-semibold">
+                <div className="grid grid-area items-center w-full md:w-[500px]">
+                  <div className="relative space-y-4 p-4 lg:p-0">
+                    <span className="text-yellow-500">Proyecto destacado</span>
+                    <h1 className="w-full md:w-2/3 lg:w-4/5 font-semibold">
                       {project.name}
                     </h1>
-                    <p className="max-w-[380px] md:max-w-[500px] rounded-md py-6 md:py-6 px-4 bg-[#16181a] shadow-[2px_2px_7px_rgba(255,255,255,.5)] text-sm">
+                    <p className="relative w-full md:max-w-[500px] rounded-md py-6 md:py-6 px-4 bg-[#16181a] shadow-[2px_2px_7px_rgba(255,255,255,.5)] text-sm">
                       {project.description}
                     </p>
                     <p>{project.tech && project.tech.join(", ")}</p>

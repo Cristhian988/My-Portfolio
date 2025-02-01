@@ -9,7 +9,7 @@ export default function Hero() {
   return (
     <div>
       <div className="container py-14 mt-20">
-        <div className="grid grid-cols-1 md:grid-cols-2 md:min-h-[60vh]">
+        <div className="grid grid-cols-1 lg:grid-cols-2 md:min-h-[60vh]">
           {/* Text Section */}
           <div className="flex flex-col justify-center tracking-wide ">
             <p className="text-clamp-md font-medium font-mono">
@@ -39,7 +39,7 @@ export default function Hero() {
             </div>
           </div>
           {/* Images Section */}
-          <div className="hidden md:block">
+          <div className="hidden lg:block">
             <img
               src={Background}
               alt="profile"
